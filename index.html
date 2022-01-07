@@ -5,12 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal | Youtube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link href="css/openSans-oswald.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css"/>
 </head>
 <body>
-    <div class="contenedor">
-        <header class="header">Header</header>
+    <div class="contenedor active">
+        <header class="header">
+            <div class="contenedor-logo">
+                <button id="boton-menu" class="boton-menu"><i class="fas fa-bars"></i></button>
+                <a href="#" class="logo"><i class="fas fa-play"></i><span>LEADStudios</span></a>
+            </div>
+
+            <div class="barra-busqueda">
+                <input type="text" placeholder="Buscar">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="botones-header">
+                <button><i class="fas fa-upload"></i></button>
+                <button><i class="fas fa-th"></i></button>
+                <button><i class="fas fa-bell"></i></button>
+                <a href="#" class="avatar"><img src="img/avatar.jpg" alt="LSC"></a>
+            </div>
+        </header>
 
         <nav class="menu-lateral">Menu</nav>
 
