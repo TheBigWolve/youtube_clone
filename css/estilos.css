@@ -205,6 +205,15 @@ div.contenedor {
     grid-template-columns: repeat(4, 1fr);
 }
 
+.main .grid-videos .div {
+    grid-template-columns: minmax(20%) auto minmax(20%);
+    grid-template-rows: auto 12 10 8;
+    grid-template-areas: 
+        "video"
+        "channelIcon channelName"
+        "subs views";
+}
+
 .main .grid-videos .video {
     width: 100%;
     display: block;
